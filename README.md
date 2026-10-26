@@ -1,6 +1,6 @@
 # TechCore
 
-TechCore es una aplicación web en desarrollo construida con **Next.js**, **React** y **TypeScript**, con integración de **PostgreSQL** y herramientas de acceso a datos.
+TechCore te ayuda a encontrar ofertas de tecnología en Amazon España. Puedes explorar productos por categorías, descubrir descuentos y consultar selecciones de productos populares antes de acceder a Amazon para completar la compra.
 
 ## Tecnologías
 
