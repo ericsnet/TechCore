@@ -1,35 +1,37 @@
 # TechCore
 
-TechCore es un catálogo de ofertas de tecnología pensado para ayudar a encontrar productos interesantes en Amazon España sin tener que empezar la búsqueda desde cero. La página principal reúne categorías, ofertas destacadas y productos populares; desde las fichas y listados puedes revisar la información disponible y continuar en Amazon si decides comprar.
+**Languages:** English | [Español](README.es.md)
 
-**TechCore no es una tienda ni procesa pagos.** Su función es ayudarte a descubrir y comparar productos; la compra se completa en Amazon. Los precios, descuentos, disponibilidad y valoraciones pueden cambiar y deben comprobarse en la página del vendedor.
+TechCore is a catalog of technology deals designed to help you find interesting products on Amazon Spain without starting your search from scratch. The home page brings together categories, featured deals, and popular products; from product pages and listings, you can review the available information and continue to Amazon if you decide to buy.
 
-## Qué puedes explorar
+**TechCore is not a store and does not process payments.** Its purpose is to help you discover and compare products; purchases are completed on Amazon. Prices, discounts, availability, and ratings may change and should be checked on the seller’s page.
 
-- **Categorías de tecnología:** entra por tipo de producto, por ejemplo portátiles, móviles, auriculares, periféricos, relojes o cámaras, según las categorías configuradas.
-- **Ofertas destacadas:** consulta una selección de productos marcados como destacados.
-- **Productos populares:** revisa los artículos que el catálogo identifica como más populares.
-- **Información del producto:** consulta los datos disponibles, como precio actual y anterior, descuento, descripción, características, valoraciones e imágenes.
-- **Acceso al vendedor:** abre el enlace de Amazon asociado al producto para comprobar la información vigente y realizar allí la compra.
+## What you can explore
 
-El contenido que aparece depende de los productos y categorías cargados en la base de datos. La interfaz puede mostrar secciones vacías si todavía no hay datos configurados.
+- **Technology categories:** Browse by product type, such as laptops, mobile phones, headphones, peripherals, watches, or cameras, depending on the configured categories.
+- **Featured deals:** View a selection of products marked as featured.
+- **Popular products:** Browse items that the catalog identifies as most popular.
+- **Product information:** View available details, such as current and previous prices, discount, description, features, ratings, and images.
+- **Seller access:** Open the Amazon link associated with a product to check current information and make a purchase there.
 
-## Cómo funciona
+The content shown depends on the products and categories loaded in the database. The interface may show empty sections if no data has been configured yet.
 
-1. TechCore carga las categorías y los productos activos guardados en su catálogo.
-2. La página principal presenta las categorías, una selección de ofertas destacadas y, cuando existen, los productos populares.
-3. Puedes explorar el listado de ofertas y filtrar por los parámetros que admite la página.
-4. Para comprar, sigues el enlace del producto hacia Amazon; TechCore no gestiona el pago ni el envío.
+## How it works
 
-## Ejecutar el proyecto en local
+1. TechCore loads the active categories and products stored in its catalog.
+2. The home page presents the categories, a selection of featured deals, and popular products when available.
+3. You can browse the deals listing and filter by the parameters supported by the page.
+4. To buy, follow the product link to Amazon; TechCore does not handle payment or shipping.
 
-### Requisitos
+## Run the project locally
 
-- Node.js y npm.
-- PostgreSQL accesible desde el entorno de desarrollo.
-- Las variables de entorno necesarias para conectar la aplicación con la base de datos, de acuerdo con la configuración local.
+### Requirements
 
-### Instalación
+- Node.js and npm.
+- PostgreSQL accessible from the development environment.
+- The environment variables required to connect the application to the database, according to the local configuration.
+
+### Installation
 
 ```bash
 git clone https://github.com/ericsnet/TechCore.git
@@ -37,17 +39,17 @@ cd TechCore
 npm install
 ```
 
-Configura la conexión a PostgreSQL y las variables de entorno que use la configuración del proyecto. Comprueba también que el esquema y los datos necesarios estén preparados antes de iniciar la aplicación.
+Configure the PostgreSQL connection and the environment variables used by the project configuration. Also make sure the required schema and data are prepared before starting the application.
 
-### Servidor de desarrollo
+### Development server
 
 ```bash
 npm run dev
 ```
 
-Abre la dirección local que indique Next.js en la terminal.
+Open the local address shown by Next.js in the terminal.
 
-### Comprobaciones y compilación
+### Checks and build
 
 ```bash
 npm run lint
@@ -55,26 +57,26 @@ npm run typecheck
 npm run build
 ```
 
-Para iniciar la versión compilada:
+To start the compiled version:
 
 ```bash
 npm run start
 ```
 
-## Tecnologías del proyecto
+## Project technologies
 
-- Next.js y React para la aplicación web.
-- TypeScript para el código de la aplicación.
-- PostgreSQL para almacenar productos y categorías.
-- Drizzle ORM para consultar la base de datos.
-- Tailwind CSS para los estilos.
+- Next.js and React for the web application.
+- TypeScript for the application code.
+- PostgreSQL to store products and categories.
+- Drizzle ORM to query the database.
+- Tailwind CSS for styling.
 
-Estas herramientas describen cómo está construido el proyecto; el propósito de TechCore es facilitar el descubrimiento de ofertas de tecnología.
+These tools describe how the project is built; TechCore’s purpose is to make it easier to discover technology deals.
 
-## Estado del proyecto
+## Project status
 
-TechCore está en desarrollo. Las funciones visibles dependen de las páginas implementadas y de que el catálogo tenga datos válidos. No debe asumirse que los precios se actualizan automáticamente ni que todas las ofertas han sido verificadas en tiempo real.
+TechCore is under development. Visible features depend on the implemented pages and on the catalog containing valid data. Do not assume that prices update automatically or that all deals have been verified in real time.
 
-## Autoría y licencia
+## Authorship and license
 
-Copyright (c) 2026 ericsnet. All rights reserved. Consulta el archivo [`LICENSE`](LICENSE) para conocer las condiciones de uso.
+Copyright (c) 2026 ericsnet. All rights reserved. See [`LICENSE`](LICENSE) for the terms of use.
